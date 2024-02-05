@@ -1,0 +1,125 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 75%;
+}
+.facebook-hd {
+  color: #0866ff;
+  font-size: 60px;
+  font-family: sans-serif;
+  margin: 0px;
+}
+.hd-para {
+  font-size: 30px;
+  margin: 0px;
+  font-family: sans-serif;
+}
+.login-part {
+  flex-direction: column;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 11px -5px rgba(0, 0, 0, 0.75);
+  padding: 10px 20px 10px 20px;
+}
+.email-field {
+  width: 350px;
+  height: 45px;
+  border: 1px solid rgba(128, 128, 128, 0.226);
+  margin: 10px 0px 10px 0px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.email-field:focus {
+  outline: 1px solid #1877f2;
+  border: none;
+}
+.email-field::placeholder {
+  font-size: 16px;
+  color: gray;
+}
+.email-field:focus::placeholder {
+  color: rgba(128, 128, 128, 0.474);
+}
+.password-field {
+  width: 350px;
+  height: 45px;
+  margin: 0px;
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.226);
+  margin: 10px 0px 10px 0px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.password-field:focus {
+  outline: 1px solid #1877f2;
+  border: none;
+}
+.password-field:focus::placeholder {
+  color: rgba(128, 128, 128, 0.474);
+}
+.password-field::placeholder {
+  font-size: 16px;
+  color: gray;
+}
+.login-btn {
+  width: 360px;
+  border-radius: 5px;
+  height: 45px;
+  background-color: #1877f2;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0px 10px 0px;
+}
+.forgot-password-link {
+  color: #1877f2;
+  text-decoration: none;
+  margin: 10px 0px 10px 0px;
+}
+.create-account-btn {
+  width: 200px;
+  border-radius: 5px;
+  height: 50px;
+  background-color: #36a420;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0px 10px 0px;
+}
+.page-for-celebrity-para {
+  font-size: 17px;
+  text-align: center;
+}
+.page-for-celebrity-link {
+  text-decoration: none;
+  font-weight: 900;
+  color: black;
+}
+.hd-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 50vh;
+}
